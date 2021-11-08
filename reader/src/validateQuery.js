@@ -42,10 +42,10 @@ module.exports = (res, parsedQuery, mode) => {
       })
     }
 
-    // Collection must not start with busdriver_
-    if (parsedQuery.q.collection.startsWith('busdriver_')) {
+    // Collection must not start with bridgeport_
+    if (parsedQuery.q.collection.startsWith('bridgeport_')) {
       return res.status(400).json({
-        error: 'You are not allowed to perform operations on collections that start with "busdriver_"'
+        error: 'You are not allowed to perform operations on collections that start with "bridgeport_"'
       })
     }
   }
