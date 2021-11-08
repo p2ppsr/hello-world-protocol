@@ -1,5 +1,8 @@
 # Hello World Protocol
 
+- [Query](./query)
+- [Socket](./socket)
+
 The Hello World Protocol (HWP) is a simple but surprisingly powerful protocol that allows you to send messages and track them on the Bitcoin SV blockchain. This Bridgeport state machine tracks these HWP messages, serving them to anyone who requests them.
 
 We keep track the message senders, and digital signatures ensure that no one can forge a message without authorization.
