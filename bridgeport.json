@@ -1,25 +1,6 @@
 {
-  "bridgeport": "0.2.0",
-  "id": "1Prq8NfyBH2mGaGG3jPcbfgH4JXj5aK9sN",
-  "name": "Hello World Protocol",
-  "description": "Create your first simple Bitcoin-powered app",
-  "version": "1.0.0",
-  "repoToken":"pHXlZZTdLtFxrYK5",
-  "reader": {
-    "runtime": "nodejs14",
-    "directory": "./reader"
-  },
-  "transformer": {
-    "runtime": "nodejs14",
-    "directory": "./transformer"
-  },
-  "filter": {
-    "startingBlockHeight": 687500,
-    "find": {
-      "out.i": 0,
-      "out.o0": "OP_0",
-      "out.o1": "OP_RETURN",
-      "out.s2": "1He11omzQsAeYa2JUj52sFZRQEsSzPFNZx"
-    }
-  }
+  "id":"15c8BXgiGZsfzM7zNaB5eqnhMSYAZd4Hyv",
+  "name":"Human-readable Bridge Name",
+  "description":"One-line bridge description",
+  "repoToken":"Yuv26qqotvtma62f",
 }
